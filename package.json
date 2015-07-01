@@ -21,8 +21,9 @@
     "url": "https://github.com/kdex/gulp-cross-json/issues"
   },
   "homepage": "https://github.com/kdex/gulp-cross-json#readme",
-  "devDependencies": {
-    "cross-json": "kdex/cross-json",
+  "devDependencies": {},
+  "dependencies": {
+    "cross-json": "git://github.com/kdex/cross-json",
     "gulp-util": "^3.0.6",
     "through2": "^2.0.0"
   }
