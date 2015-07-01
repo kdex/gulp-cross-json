@@ -1,0 +1,27 @@
+{
+  "name": "gulp-cross-json",
+  "version": "1.0.0",
+  "description": "A small gulp port for cross-json",
+  "main": "gulp-cross-json.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kdex/gulp-cross-json.git"
+  },
+  "keywords": [
+    "gulp",
+    "cross",
+    "json"
+  ],
+  "author": "kdex",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/kdex/gulp-cross-json/issues"
+  },
+  "homepage": "https://github.com/kdex/gulp-cross-json#readme",
+  "devDependencies": {
+    "cross-json": "kdex/cross-json"
+  }
+}
