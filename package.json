@@ -1,19 +1,30 @@
 {
   "name": "gulp-cross-json",
-  "version": "1.0.0",
-  "description": "A small gulp port for cross-json",
+  "version": "1.0.1",
+  "description": "A small gulp task for cross-json",
   "main": "gulp-cross-json.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "compile": "gulp",
+    "prepublish": "npm run compile"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/kdex/gulp-cross-json.git"
   },
+  "registry": "npm",
   "keywords": [
+    "gulp-cross-json",
     "gulp",
+    "cross-json",
     "cross",
-    "json"
+    "json",
+    "comparison",
+    "translation",
+    "completion",
+    "i18n",
+    "properties",
+    "property",
+    "task"
   ],
   "author": "kdex",
   "license": "GPL-3.0",
@@ -22,6 +33,15 @@
   },
   "homepage": "https://github.com/kdex/gulp-cross-json#readme",
   "devDependencies": {
-    "cross-json": "kdex/cross-json"
+    "babel": "^6.3.26",
+    "babel-plugin-transform-es2015-modules-umd": "^6.4.0",
+    "babel-preset-es2015": "^6.3.13",
+    "babel-preset-stage-0": "^6.3.13",
+    "gulp": "^3.9.0",
+    "gulp-babel": "^6.1.1",
+    "gulp-uglify": "^1.5.1"
+  },
+  "dependencies": {
+    "cross-json": "^1.0.3"
   }
 }
