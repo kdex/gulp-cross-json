@@ -1,8 +1,8 @@
 {
   "name": "gulp-cross-json",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A small gulp task for cross-json",
-  "main": "gulp-cross-json.js",
+  "main": "dist/gulp-cross-json.js",
   "scripts": {
     "compile": "gulp",
     "prepublish": "npm run compile"
