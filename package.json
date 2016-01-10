@@ -1,12 +1,15 @@
 {
   "name": "gulp-cross-json",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A small gulp task for cross-json",
   "main": "gulp-cross-json.js",
   "scripts": {
     "compile": "gulp",
     "prepublish": "npm run compile"
   },
+  "files": [
+    "dist/*"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/kdex/gulp-cross-json.git"
